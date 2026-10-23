@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+# Local data (never commit databases, backups or logs)
+data/*
+!data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+# Secrets / environment
+.env
+.env.*
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+# Private planning documents
+planning/
+*_prompt.md

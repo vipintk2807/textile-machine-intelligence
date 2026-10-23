@@ -1,0 +1,15 @@
+# Textile Machine Intelligence - Python 3.11 or newer.
+# Version ranges are compatible-release constraints; they were NOT verified by an
+# installation test in the environment where this project was generated (see
+# docs/TEST_REPORT.md). Install with:  pip install -r requirements.txt
+
+# --- Runtime ---
+streamlit>=1.40,<2
+SQLAlchemy>=2.0.30,<2.1
+pandas>=2.2,<4
+plotly>=5.24,<7
+tzdata>=2024.1      # IANA time-zone database; REQUIRED on Windows for zoneinfo
+
+# --- Development / testing ---
+pytest>=8,<10
+ruff>=0.6

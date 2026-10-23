@@ -1,0 +1,14 @@
+# Tool configuration only (the project is run from its folder, not installed as a package).
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]
